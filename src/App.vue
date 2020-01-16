@@ -28,7 +28,7 @@
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"/>
       <v-toolbar-title>
-        <router-link to="/" tag="span" style="cursor: pointer">DevMeetup</router-link>
+        <router-link to="/" tag="span" style="cursor: pointer">Etiquetador</router-link>
       </v-toolbar-title>
       <v-spacer></v-spacer>
 
@@ -101,7 +101,7 @@
     </v-content>
 
     <v-footer app>
-      <span>&copy; 2019</span>
+      <span>&copy; 2020</span>
     </v-footer>
 
   </v-app>
@@ -121,17 +121,11 @@ export default {
     menuitems: [
       { icon: 'mdi-view-dashboard', title: 'Dashboard', link: '/' },
       { icon: 'mdi-settings', title: 'Settings', link: '/' },
-      { icon: 'mdi-account-supervisor', title: 'View Meetups', link: '/meetups' },
-      { icon: 'mdi-map-marker', title: 'Organize Meetup', link: '/meetup/new' },
-      { icon: 'mdi-account', title: 'Profile', link: '/profile' },
-      { icon: 'mdi-login-variant', title: 'Sign up', link: '/signup' },
+      { icon: 'mdi-account-supervisor', title: 'Videos', link: '/meetups' },
       { icon: 'mdi-lock-open', title: 'Sign in', link: '/signin' }
     ],
     menuitems2: [
-      { icon: 'mdi-account-supervisor', title: 'View Meetups', link: '/meetups' },
-      { icon: 'mdi-map-marker', title: 'Organize Meetup', link: '/meetup/new' },
-      { icon: 'mdi-account', title: 'Profile', link: '/profile' },
-      { icon: 'mdi-login-variant', title: 'Sign up', link: '/signup' },
+      { icon: 'mdi-account-supervisor', title: 'videos', link: '/videos' },
       { icon: 'mdi-lock-open', title: 'Sign in', link: '/signin' }
     ]
   }),
