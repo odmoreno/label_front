@@ -125,7 +125,8 @@ export default {
       { icon: 'mdi-lock-open', title: 'Sign in', link: '/signin' }
     ],
     menuitems2: [
-      { icon: 'mdi-account-supervisor', title: 'videos', link: '/videos' },
+      { icon:'mdi-database-search', title: 'Datasets', link: '/datasets' },
+      { icon: 'mdi-account-supervisor', title: 'videos', link: '/' },
       { icon: 'mdi-lock-open', title: 'Sign in', link: '/signin' }
     ]
   }),
